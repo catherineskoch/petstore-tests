@@ -35,9 +35,10 @@ def test_update_pet(base_url, create_pet):
 def test_delete_pet(base_url):
     response_create = requests.post(f"{base_url}/pet", json=new_pet_data)
     pet = response_create.json()
-    time.sleep(10)
     response_delete = requests.delete(f"{base_url}/pet/{pet['id']}")
+    time.sleep(3)
     assert response_delete.status_code == 200
     response_get = requests.get(f"{base_url}/pet/{pet['id']}")
     assert response_get.status_code == 404
+
 
