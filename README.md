@@ -11,7 +11,7 @@
 
 ## ⚙️ Установка и запуск
 
-1️⃣ Клонить проект  
+1️⃣ Клонировать проект  
 `git clone https://github.com/catherineskoch/petstore-tests.git`  
 `cd petstore-tests`
 
