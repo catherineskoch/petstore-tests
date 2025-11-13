@@ -1,5 +1,5 @@
 # Petstore API Tests
-Проект с примерами автоматизированных API-тестов для сервиса [Swagger Petstore](https://petstore.swagger.io).
+Проект с примерами автоматизированных API-тестов для сервиса [Swagger Petstore](https://petstore.swagger.io)
 
 ## Описание проекта
 Цель проекта - продемонстрировать базовую структуру автотестов для REST API, используя:
@@ -15,7 +15,7 @@
 `git clone https://github.com/catherineskoch/petstore-tests.git`  
 `cd petstore-tests`
 
-2️⃣ Создайте виртуальное окружение (рекомендуется)  
+2️⃣ Создать виртуальное окружение (рекомендуется)  
 `python -m venv venv`  
 `source venv/bin/activate   # для macOS/Linux`  
 `venv\Scripts\activate      # для Windows`
