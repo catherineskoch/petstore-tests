@@ -24,4 +24,4 @@
 `pip install -r requirements.txt`
 
 4️⃣ Запуск всех тестов  
-`pytest -v tests/`
+`pytest -v`
