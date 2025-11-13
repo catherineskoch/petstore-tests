@@ -1,5 +1,10 @@
 import pytest
 import requests
+import sys
+import os
+
+# Добавляем корень проекта в sys.path
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from test_data import new_pet_data
 
 BASE_URL = "https://petstore.swagger.io/v2"
@@ -15,3 +20,4 @@ def create_pet():
     pet = response.json()
     yield pet
     requests.delete(f"{BASE_URL}/pet/{pet['id']}")
+
